@@ -89,7 +89,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
               Text(
                 "Coloring Birds",
                 style: _textTheme.headline4?.copyWith(
-                    color:isDark?Colors.white: Colors.black,fontWeight: FontWeight.bold,
+                    color:isDark?Colors.white: Colors.black,fontWeight: FontWeight.bold,fontFamily: "Roboto-ThinItalic"
                 ),
               ),
               addVerticalSpace(10),
